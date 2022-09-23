@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<Html lang="ro">
+
+<Head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="styles/tranzistoriada.css">
+    <link rel="icon" href="images/tranzistoriada.jpg" type="image/x-icon">
+    <title>
+        Tranzistoriada
+    </title>
+</Head>
+<header>
+    <div style="background-color: rgb(63, 63, 63);" class="row">
+        <div class="col-sm-4">
+            <a href="index.html">
+                <img height="50" width="50" src="images/tranzistoriada.jpg" class="img-rounded" alt="Tranzistoriada">
+            </a>
+        </div>
+        <div style="color: rgb(255, 255, 255)" class="col-sm-4">
+            <h6>Date de contact (România): +40785 276 375</h6>
+        </div>
+        <div class="col-sm-4">
+            <button type="button" class="btn"><a href="login.html" style="color: rgb(255, 255, 255)"> Logare
+                </a></button>
+            <button type="button" class="btn"><a href="register.html" style="color: rgb(255, 255, 255)"> Înregistrare
+                </a></button>
+            <button type="button" class="btn"><a href="client-panel.html" style="color: rgb(255, 255, 255)"> Detalii
+                    Client </a></button>
+        </div>
+    </div>
+</header>
+
+<body>
+    <div class="jumbotron text-center">
+        <h1>Tranzistoriada</h1>
+        <p>Magazinul pentru electronistul din tine!</p>
+    </div>
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-sm-2">
+                <h4>Produse</h4>
+                <br>
+                <ul>
+                    <li class="product-button-menu">
+                        <a class="product-button-menu-text" href="tranzistori.html">
+                            <span>
+                                Tranzistori
+                            </span>
+                        </a>
+                    </li>
+                    <li class="product-button-menu">
+                        <a class="product-button-menu-text" href="inductori.html">
+                            <span>
+                                Inductori
+                            </span>
+                        </a>
+                    </li>
+                    <li class="product-button-menu">
+                        <a class="product-button-menu-text" href="rezistori.html">
+                            <span>
+                                Rezistori
+                            </span>
+                        </a>
+                    </li>
+                    <li class="product-button-menu">
+                        <a class="product-button-menu-text" href="condensatori.html">
+                            <span>
+                                Condensatori
+                            </span>
+                        </a>
+                    </li>
+                    <li class="product-button-menu">
+                        <a class="product-button-menu-text" href="diode.html">
+                            <span>
+                                Diode
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-10">
+                <br><br>
+                <div class="input-group rounded">
+                    <input type="search" class="form-control rounded" placeholder="Caută" aria-label="Caută"
+                        aria-describedby="search-addon" />
+                    <span class="input-group-text border-0" id="search-addon">
+                        <i class="fas fa-search"></i>
+                    </span>
+                </div>
+                <br><br>
+                <div class="product-filter-container">
+                    <h4>
+                        Filtre
+                    </h4>
+
+                    <table class="table">
+                        <tr>
+                            <th>
+                                <div class="product-filter-item-container">
+                                    <h5>
+                                        Producator
+                                    </h5>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" />
+                                        <label class="form-check-label">Royal Ohm</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" />
+                                        <label class="form-check-label">SR Passives</label>
+                                    </div>
+                                </div>
+                            </th>
+                            <th>
+                                <div class="product-filter-item-container">
+                                    <h5>
+                                        Tip Rezistor
+                                    </h5>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" />
+                                        <label class="form-check-label">SMD</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" />
+                                        <label class="form-check-label">THT</label>
+                                    </div>
+                                </div>
+                            </th>
+                            <th>
+                                <div class="product-filter-item-container">
+                                    <h5>
+                                        Putere
+                                    </h5>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" />
+                                        <label class="form-check-label">1/4W</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" />
+                                        <label class="form-check-label">1/2 W</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" />
+                                        <label class="form-check-label">1 W</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" />
+                                        <label class="form-check-label">5 W</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" />
+                                        <label class="form-check-label">10 W</label>
+                                    </div>
+                                </div>
+                            </th>
+                            <th>
+                                <div class="product-filter-item-container">
+                                    <h5>
+                                        Rezistenta
+                                    </h5>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" />
+                                        <label class="form-check-label">100Ω</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" />
+                                        <label class="form-check-label">10kΩ</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" />
+                                        <label class="form-check-label">270kΩ</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" />
+                                        <label class="form-check-label">100kΩ</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" />
+                                        <label class="form-check-label">1MΩ</label>
+                                    </div>
+                                </div>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                <div class="product-filter-item-container">
+                                    <h5>
+                                        Dimensiuni terminale
+                                    </h5>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" />
+                                        <label class="form-check-label">Ø0.43x28mm</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" />
+                                        <label class="form-check-label">Ø0.45x28mm</label>
+                                    </div>
+                                </div>
+                            </th>
+                            <th>
+                                <div class="product-filter-item-container">
+                                    <h5>
+                                        Dimensiuni carcasa
+                                    </h5>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" />
+                                        <label class="form-check-label">Ø1.5x3.2mm</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" />
+                                        <label class="form-check-label">Ø1.8x3.2mm</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" />
+                                        <label class="form-check-label">Ø1.85x3.5mm</label>
+                                    </div>
+                                </div>
+                            </th>
+                        </tr>
+                    </table>
+                </div>
+                <div class="container">
+                    <div class="jumbotron">
+                        <h2 style="color: rgb(157, 11, 11);">Toate produsele gasite: 28</h2>
+                    </div>
+                </div>
+                <div class="container">
+                    <br>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown button
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                </div>
+                <div class="row">
+                    <div class="product-item-container">
+                        <table class="table">
+                            <tr scope="row">
+                                <th scope="col">
+                                    <a>
+                                        <img src="images/componente/rezistori/r1.png" width="120">
+                                    </a>
+                                </th>
+                                <th scope="col">
+                                    <table class="table">
+                                        <tr>
+                                            <h3 align="left">
+                                                1/2W-100K
+                                            </h3>
+                                        </tr>
+                                        <tr>
+                                            <h5 align="left">
+                                                Rezistor: carbon; THT; 100kΩ; 0,5W; ±5%; Ø3x9mm; axial
+                                            </h5>
+                                        </tr>
+                                        <tr>
+                                            <h5 align="left">
+                                                Producator: ROYAL OHM
+                                            </h5>
+                                        </tr>
+                                        <tr>
+                                            <h5 align="left">
+                                                Disponibil
+                                            </h5>
+                                        </tr>
+                                    </table>
+                                </th>
+                                <th>
+                                    <h5>
+                                        Cantitate disponibila:
+                                        <br>
+                                        18323
+                                    </h5>
+                                </th>
+                                <th>
+                                    <button type="button" class="btn btn-success">
+                                        Comanda acum
+                                    </button>
+                                </th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="product-item-container">
+                        <table class="table">
+                            <tr>
+                                <th>
+                                    <a>
+                                        <img src="images/componente/rezistori/r1.png" width="120">
+                                    </a>
+                                </th>
+                                <th>
+                                    <table>
+                                        <tr>
+                                            <h3 align="left">
+                                                1/2W-100R
+                                            </h3>
+                                        </tr>
+                                        <tr>
+                                            <h5 align="left">
+                                                Rezistor: carbon; THT; 100Ω; 0,5W; ±5%; Ø3x9mm; axial
+                                            </h5>
+                                        </tr>
+                                        <tr>
+                                            <h5 align="left">
+                                                Producator: ROYAL OHM
+                                            </h5>
+                                        </tr>
+                                        <tr>
+                                            <h5 align="left">
+                                                Disponibil
+                                            </h5>
+                                        </tr>
+                                    </table>
+                                </th>
+                                <th>
+                                    <h5>
+                                        Cantitate disponibila:
+                                        <br>
+                                        276
+                                    </h5>
+                                </th>
+                                <th>
+                                    <button type="button" class="btn btn-success">
+                                        Comanda acum
+                                    </button>
+                                </th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="product-item-container">
+                        <table class="table">
+                            <tr>
+                                <th>
+                                    <a>
+                                        <img src="images/componente/rezistori/r1.png" width="120">
+                                    </a>
+                                </th>
+                                <th>
+                                    <table>
+                                        <tr>
+                                            <h3 align="left">
+                                                1/2W-10K
+                                            </h3>
+                                        </tr>
+                                        <tr>
+                                            <h5 align="left">
+                                                Rezistor: carbon; THT; 10kΩ; 0,5W; ±5%; Ø3x9mm; axial
+                                            </h5>
+                                        </tr>
+                                        <tr>
+                                            <h5 align="left">
+                                                Producator: ROYAL OHM
+                                            </h5>
+                                        </tr>
+                                        <tr>
+                                            <h5 align="left">
+                                                Disponibil
+                                            </h5>
+                                        </tr>
+                                    </table>
+                                </th>
+                                <th>
+                                    <h5>
+                                        Cantitate disponibila:
+                                        <br>
+                                        9832
+                                    </h5>
+                                </th>
+                                <th>
+                                    <button type="button" class="btn btn-success">
+                                        Comanda acum
+                                    </button>
+                                </th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="product-item-container">
+                        <table class="table">
+                            <tr>
+                                <th>
+                                    <a>
+                                        <img src="images/componente/rezistori/r1.png" width="120">
+                                    </a>
+                                </th>
+                                <th>
+                                    <table>
+                                        <tr>
+                                            <h3 align="left">
+                                                1/2W-270K
+                                            </h3>
+                                        </tr>
+                                        <tr>
+                                            <h5 align="left">
+                                                Rezistor: carbon; THT; 270kΩ; 0,5W; ±5%; Ø3x9mm; axial
+                                            </h5>
+                                        </tr>
+                                        <tr>
+                                            <h5 align="left">
+                                                Producator: ROYAL OHM
+                                            </h5>
+                                        </tr>
+                                        <tr>
+                                            <h5 align="left">
+                                                Indisponibil
+                                            </h5>
+                                        </tr>
+                                    </table>
+                                </th>
+                                <th>
+                                    <h5>
+                                        Cantitate disponibila:
+                                        <br>
+                                        0
+                                    </h5>
+                                </th>
+                                <th>
+                                    <button type="button" class="btn btn-danger">
+                                        Afla stoc
+                                    </button>
+                                </th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</Html>
